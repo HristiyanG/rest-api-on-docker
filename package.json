@@ -15,6 +15,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HristiyanG/REST_Api_MongoDB_Docker.git"
+    "url": "git+https://github.com/HristiyanG/rest-api-on-docker.git"
   }
 }
