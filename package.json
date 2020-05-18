@@ -1,0 +1,20 @@
+{
+  "name": "restapi-mongo-docker",
+  "version": "1.0.0",
+  "description": "REST API with MongoDB on docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose -f docker/docker-compose.yml up -d",
+    "build": "docker-compose -f docker/docker-compose.yml build"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HristiyanG/REST_Api_MongoDB_Docker.git"
+  }
+}
