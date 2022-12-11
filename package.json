@@ -8,8 +8,8 @@
     "build": "docker-compose -f docker/docker-compose.yml build"
   },
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "mongodb": "^3.1.8"
   },
   "license": "MIT",
